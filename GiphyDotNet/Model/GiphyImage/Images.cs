@@ -5,7 +5,6 @@ using Newtonsoft.Json;
 
 namespace GiphyDotNet.Model.GiphyImage
 {
-
     public class Images
     {
 
@@ -53,6 +52,8 @@ namespace GiphyDotNet.Model.GiphyImage
 
         [JsonProperty("original_still")]
         public OriginalStill OriginalStill { get; set; }
-    }
 
+        [JsonProperty("preview_gif")]
+        public PreviewGif PreviewGif { get; set; }
+    }
 }
